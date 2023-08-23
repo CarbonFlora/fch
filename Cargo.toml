@@ -8,4 +8,5 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.75"
 clap = { version = "4.3.23", features = ["derive"] }
+dirs = "5.0.1"
 ron = "0.8.1"

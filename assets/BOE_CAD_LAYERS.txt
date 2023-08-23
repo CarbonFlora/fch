@@ -114,7 +114,7 @@ C□-COMM-OVHD
 Communications: 
 overhead
 C□-COMM-POLE Communications: pole
-C□- COMM-UGND
+C□-COMM-UGND
 Communications: 
 underground
 C□-CTRL Control points
@@ -135,8 +135,7 @@ C□-CTRL-PNPT
 Control points: panel 
 points
 C□-CTRL-TRAV
-Control points: 
-transverse
+Control points: transverse
 C□-CTRL-VERT Control points: vertical
 C□-DFLD Drain fields
 C□-DFLD-OTLN Drain fields: outline
@@ -272,7 +271,7 @@ supply
 C□-FENC Fences
 C□-FENC-GRAL Fences: guard rail
 C□-FENC-POST Fences: posts
-C -FENC-STEL
+C□-FENC-STEL
 Fences: steel (barbed 
 wire and/or chain link)
 C□-FENC-WOOD Fences: wood

@@ -8,20 +8,13 @@ use crate::parsing::{build_longform, key_swap, new_longform};
 
 pub type KeyPair = BTreeMap<String, String>;
 
+#[derive(Debug)]
 pub enum Mode {
     FindAbbreviation,
     FindLongForm,
 }
 
-impl Mode {
-    pub fn next(&mut self) {
-        match self {
-            Mode::FindAbbreviation => &mut Mode::FindLongForm,
-            Mode::FindLongForm => &mut Mode::FindAbbreviation,
-        };
-    }
-}
-
+#[derive(Debug)]
 pub struct Dictionary {
     to_abbreviation: KeyPair,
     to_longform: KeyPair,
@@ -48,28 +41,52 @@ impl Dictionary {
             search_term,
         })
     }
+
+    pub fn layer_lookup(&mut self) -> bool {
+        loop {
+            //body
+            match self.search_term.trim() {
+                ":q" => return false,
+                ":s" => {
+                    self.switch_mode();
+                }
+                ":debug" => {
+                    println!("{:#?}", self);
+                }
+                "" => println!("Quit with [:q], switch modes with [:s], type anything to search."),
+                _ => self.search(),
+            }
+
+            //re-search
+            self.search_term = io::stdin()
+                .lines()
+                .next()
+                .unwrap_or(Ok(String::new()))
+                .unwrap_or(String::new());
+        }
+    }
+
+    fn search(&self) {
+        match self.mode {
+            Mode::FindAbbreviation => println!("ABBREVIATION LIST: {:#?}", self.to_abbreviation),
+            Mode::FindLongForm => println!("LONGFORM LIST: {:#?}", self.to_longform),
+        }
+    }
+
+    fn switch_mode(&mut self) {
+        self.mode = match self.mode {
+            Mode::FindAbbreviation => {
+                println!("Ex. CG => Civil Grading");
+                Mode::FindLongForm
+            }
+            Mode::FindLongForm => {
+                println!("Ex. Civil Grading => CG");
+                Mode::FindAbbreviation
+            }
+        };
+    }
 }
 
 pub fn parse_inputs() -> Result<Dictionary> {
     Dictionary::from_arguments(Args::parse())
-}
-
-pub fn layer_lookup(dictionary: &mut Dictionary) -> bool {
-    loop {
-        //body
-        println!("Under construction");
-        //conclusion
-        let input = io::stdin()
-            .lines()
-            .next()
-            .unwrap_or(Ok(String::new()))
-            .unwrap_or(String::new());
-        match input.trim() {
-            ":q" => return false,
-            ":s" => {
-                dictionary.mode.next();
-            }
-            _ => (),
-        };
-    }
 }
