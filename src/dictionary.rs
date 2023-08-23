@@ -77,7 +77,7 @@ impl Dictionary {
         };
 
         if let Some(w) = self.perfect_search(list) {
-            println!("[Exact Match]\n{}", w);
+            println!("[Exact Match]{}", w);
         }
         if let Some(w) = self.fuzzy_search(list) {
             println!("[Fuzzy Matches]{}", w);
@@ -87,7 +87,9 @@ impl Dictionary {
     }
 
     fn perfect_search(&self, list: &KeyPair) -> Option<String> {
-        list.get(&self.search_term).cloned()
+        let value = list.get(&self.search_term).cloned()?;
+
+        Some(format!("\n{} => {}", self.search_term, value))
     }
 
     fn fuzzy_search(&self, list: &KeyPair) -> Option<String> {
@@ -102,7 +104,7 @@ impl Dictionary {
             //     .map(|x| within_threshold += format!("\n{}", x.0).as_str());
             if !binding.is_empty() {
                 let value = list.get(&i).unwrap(); //unreachable unwrap.
-                within_threshold += format!("\n{}", value).as_str();
+                within_threshold += format!("\n{} => {}", i, value).as_str();
             }
         }
 
