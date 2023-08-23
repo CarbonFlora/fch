@@ -10,10 +10,9 @@ pub struct Args {
     #[arg(short, long, default_value_t = false)]
     pub build: bool,
 
-    /// Switch to finding the layman definition for a given abbreviation sequence.
-    #[arg(short, long, default_value_t = false)]
-    pub short: bool,
-
+    // /// Switch to finding the layman definition for a given abbreviation sequence.
+    // #[arg(short, long, default_value_t = false)]
+    // pub short: bool,
     /// The text to be translated.
     #[arg(required = true)]
     pub input: String,
