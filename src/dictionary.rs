@@ -6,6 +6,7 @@ use std::io::{self};
 use crate::arguments::Args;
 use crate::parsing::{build_longform, key_swap, new_longform};
 
+// pub type KeyPair = Vec<(String, Vec<String>)>;
 pub type KeyPair = BTreeMap<String, String>;
 
 #[derive(Debug)]
@@ -67,10 +68,23 @@ impl Dictionary {
     }
 
     fn search(&self) {
-        match self.mode {
-            Mode::FindAbbreviation => println!("ABBREVIATION LIST: {:#?}", self.to_abbreviation),
-            Mode::FindLongForm => println!("LONGFORM LIST: {:#?}", self.to_longform),
+        let list = match self.mode {
+            Mode::FindAbbreviation => &self.to_abbreviation,
+            Mode::FindLongForm => &self.to_longform,
+        };
+        let mut hits = 0;
+
+        if let Some(w) = self.perfect_search(list) {
+            println!("Exact Match: {}", w);
+            hits += 1;
         }
+        if hits == 0 {
+            println!("No relevant definitions.")
+        }
+    }
+
+    fn perfect_search(&self, list: &KeyPair) -> Option<String> {
+        list.get(&self.search_term).cloned()
     }
 
     fn switch_mode(&mut self) {

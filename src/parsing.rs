@@ -30,7 +30,7 @@ pub fn new_longform(file_path: &str) -> Result<KeyPair> {
                 value += &buffered.next().unwrap_or_default();
             }
 
-            map.insert(key.to_string(), value.trim().to_string());
+            map.insert(key.to_lowercase(), value.trim().to_lowercase());
         }
     }
 
