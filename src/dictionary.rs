@@ -1,13 +1,14 @@
 use anyhow::Result;
 use clap::Parser;
+use rust_fuzzy_search::fuzzy_search_threshold;
 use std::collections::BTreeMap;
 use std::io::{self};
 
 use crate::arguments::Args;
 use crate::parsing::{build_longform, key_swap, new_longform};
 
-// pub type KeyPair = Vec<(String, Vec<String>)>;
 pub type KeyPair = BTreeMap<String, String>;
+const THRESHOLD: f32 = 0.4;
 
 #[derive(Debug)]
 pub enum Mode {
@@ -27,13 +28,14 @@ impl Dictionary {
     pub fn from_arguments(arguments: Args) -> Result<Self> {
         let (to_longform, search_term) = match arguments.build {
             true => (new_longform(&arguments.input)?, String::new()),
-            false => (build_longform()?, arguments.input),
+            false => (build_longform()?, arguments.input.to_lowercase()),
         };
         let to_abbreviation = key_swap(to_longform.clone());
-        let mode = match arguments.short {
-            false => Mode::FindAbbreviation,
-            true => Mode::FindLongForm,
-        };
+        // let mode = match arguments.short {
+        //     false => Mode::FindAbbreviation,
+        //     true => Mode::FindLongForm,
+        // };
+        let mode = Mode::FindAbbreviation;
 
         Ok(Dictionary {
             to_abbreviation,
@@ -63,7 +65,8 @@ impl Dictionary {
                 .lines()
                 .next()
                 .unwrap_or(Ok(String::new()))
-                .unwrap_or(String::new());
+                .unwrap_or(String::new())
+                .to_lowercase();
         }
     }
 
@@ -72,19 +75,41 @@ impl Dictionary {
             Mode::FindAbbreviation => &self.to_abbreviation,
             Mode::FindLongForm => &self.to_longform,
         };
-        let mut hits = 0;
 
         if let Some(w) = self.perfect_search(list) {
-            println!("Exact Match: {}", w);
-            hits += 1;
+            println!("[Exact Match]\n{}", w);
         }
-        if hits == 0 {
-            println!("No relevant definitions.")
+        if let Some(w) = self.fuzzy_search(list) {
+            println!("[Fuzzy Matches]{}", w);
+        } else {
+            println!("No relevant definitions.");
         }
     }
 
     fn perfect_search(&self, list: &KeyPair) -> Option<String> {
         list.get(&self.search_term).cloned()
+    }
+
+    fn fuzzy_search(&self, list: &KeyPair) -> Option<String> {
+        let keys = list.keys().cloned().collect::<Vec<String>>();
+        let mut within_threshold = String::new();
+
+        for i in keys {
+            let parts = i.split([' ', '-']).collect::<Vec<&str>>();
+            let binding = fuzzy_search_threshold(&self.search_term, &parts, THRESHOLD);
+            // let _ = binding
+            //     .iter()
+            //     .map(|x| within_threshold += format!("\n{}", x.0).as_str());
+            if !binding.is_empty() {
+                let value = list.get(&i).unwrap(); //unreachable unwrap.
+                within_threshold += format!("\n{}", value).as_str();
+            }
+        }
+
+        if within_threshold.is_empty() {
+            return None;
+        }
+        Some(within_threshold)
     }
 
     fn switch_mode(&mut self) {
