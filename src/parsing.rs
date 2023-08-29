@@ -6,29 +6,31 @@ use crate::dictionary::KeyPair;
 
 // const DIR: &str = ".\\CAD_LAYER_DICTIONARY.ron";
 
-pub fn new_longform(file_path: &str) -> Result<KeyPair> {
+pub fn new_longform(file_path: &Vec<String>) -> Result<KeyPair> {
     let mut map = KeyPair::new();
-    let mut buffered = BufReader::new(File::open(file_path)?)
-        .lines()
-        .flatten()
-        .peekable();
-    let mut search_key = String::new();
+    for file in file_path {
+        let mut buffered = BufReader::new(File::open(file)?)
+            .lines()
+            .flatten()
+            .peekable();
+        let mut search_key = String::new();
 
-    while let Some(line) = buffered.next() {
-        if line.starts_with(':') {
-            search_key = line.strip_prefix(':').unwrap_or_default().to_string();
-        } else if line.starts_with(&search_key) {
-            let key = line.split_whitespace().next().unwrap_or_default().trim();
-            let mut value = line.strip_prefix(key).unwrap_or_default().to_string();
+        while let Some(line) = buffered.next() {
+            if line.starts_with(':') {
+                search_key = line.strip_prefix(':').unwrap_or_default().to_string();
+            } else if line.starts_with(&search_key) {
+                let key = line.split_whitespace().next().unwrap_or_default().trim();
+                let mut value = line.strip_prefix(key).unwrap_or_default().to_string();
 
-            while buffered
-                .peek()
-                .is_some_and(|x| !x.starts_with(&search_key) && !x.starts_with(':'))
-            {
-                value += &buffered.next().unwrap_or_default();
+                while buffered
+                    .peek()
+                    .is_some_and(|x| !x.starts_with(&search_key) && !x.starts_with(':'))
+                {
+                    value += &buffered.next().unwrap_or_default();
+                }
+
+                map.insert(key.to_lowercase(), value.trim().to_lowercase());
             }
-
-            map.insert(key.to_lowercase(), value.trim().to_lowercase());
         }
     }
 

@@ -15,7 +15,7 @@ pub struct Args {
     // pub short: bool,
     /// The text to be translated.
     #[arg(required = true)]
-    pub dictionary: String,
+    pub dictionary: Vec<String>,
 }
 
 // /// Name of the person to greet
