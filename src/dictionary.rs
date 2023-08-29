@@ -5,7 +5,7 @@ use std::collections::BTreeMap;
 use std::io::{self};
 
 use crate::arguments::Args;
-use crate::parsing::{build_longform, key_swap, new_longform};
+use crate::parsing::{key_swap, new_longform};
 
 pub type KeyPair = BTreeMap<String, String>;
 const THRESHOLD: f32 = 0.4;
@@ -26,15 +26,9 @@ pub struct Dictionary {
 
 impl Dictionary {
     pub fn from_arguments(arguments: Args) -> Result<Self> {
-        let (to_longform, search_term) = match arguments.build {
-            true => (new_longform(&arguments.input)?, String::new()),
-            false => (build_longform()?, arguments.input.to_lowercase()),
-        };
+        let to_longform = new_longform(&arguments.dictionary)?;
+        let search_term = String::new();
         let to_abbreviation = key_swap(to_longform.clone());
-        // let mode = match arguments.short {
-        //     false => Mode::FindAbbreviation,
-        //     true => Mode::FindLongForm,
-        // };
         let mode = Mode::FindAbbreviation;
 
         Ok(Dictionary {
@@ -77,10 +71,10 @@ impl Dictionary {
         };
 
         if let Some(w) = self.perfect_search(list) {
-            println!("[Exact Match]{}", w);
+            println!("\n[Exact Match]{}", w);
         }
         if let Some(w) = self.fuzzy_search(list) {
-            println!("[Fuzzy Matches]{}", w);
+            println!("\n[Fuzzy Matches]{}", w);
         } else {
             println!("No relevant definitions.");
         }
