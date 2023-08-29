@@ -78,7 +78,7 @@ impl Dictionary {
             println!("\n[Fuzzy Matches]{}", w);
             count += 1;
         }
-        if count > 0 {
+        if count == 0 {
             println!("No relevant definitions.");
         }
     }
