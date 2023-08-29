@@ -1,0 +1,219 @@
+ACCS Access
+ACID Acid waste systems
+AERI Aerial survey
+AFFF Aqueous film-forming foam system
+AFLD Airfields
+AIR~ Air
+AIRS Airport airspace related features
+ALGN Alignment
+ALRM Alarm system
+ANNO Annotation
+APRN Apron related features
+AREA Area
+AUXL Auxiliary systems
+
+BARR Barrier
+BCNS Beacons
+BCST Broadcast related system (radio or TV)
+BEAM Beams
+BELL Bell system
+BLDG Buildings and primary structures
+BLIN Baseline
+BNDY Political boundaries
+BORE Borings
+BRCG Bracing
+BRDG Bridge
+BRIN Brine systems
+BRKL Break / fault lines
+BRLN Building restriction line
+BZNA Buffer zone area
+
+CABL Cable systems
+CATH Cathodic protection system
+CATV Cable television system
+CCTV Closed-circuit television system
+CEME Cemetery
+CHAN Navigable channels
+CHEM Chemical
+CHIM Chimneys and stacks
+CLNG Ceiling
+CLOK Clock system
+CMPA Compressed / processed air systems
+CMPR Computer
+CNDW Condenser water systems
+CO2S CO2 system
+CODE Code compliance plan
+COLS Columns
+COMM Communications
+CONT Controls and instrumentation
+CONV Conveying systems
+CRPT Carpet / carpet tile
+CSWK Casework
+CTRL Control points
+CWTR Chilled water systems
+
+DATA Data / LAN system
+DECK Deck
+DECN Decontamination
+DETL Detail
+DFLD Drain fields
+DIAG Diagrams
+DICT Dictation system
+DOMW Domestic water systems
+DOOR Doors
+DRAN Drains
+DRIV Driveways
+DTCH Ditches or washes
+DUAL Dual temperature systems
+DUST Dust and fume collection systems
+
+ELEC Electrical system, telecom plan
+ELEV Elevation
+ELHT Electric heat
+EMCS Energy monitoring control system
+ENER Energy management systems
+EQPM Equipment
+EROS Erosion and sediment control
+ESMT Easements
+EVAC Evacuation plan
+EXHS Exhaust system
+
+FENC Fences
+FIRE Fire protection
+FLHA Flood hazard area
+FLOR Floor
+FNDN Foundation
+FNSH Finishes
+FRAM Braced frame or moment frame
+FSTN Fasteners and connections
+FUEL Fuel systems
+FUME Fume hood
+FURN Furnishings
+
+GAS~ Gas
+GATE Gate
+GLAZ Glazing
+GLYC Glycol systems
+GRAD Grading work
+GRAY Graywater systems
+GRID Grids
+GRLN Grade line
+GRND Ground system
+
+HALN Halon
+HWTR Hot water heating system
+HVAC HVAC systems
+HYDR Hydraulic structure
+IGAS Inert gas
+INGR Ingrants
+INST Instrumentation system
+INTC Intercom / PA systems
+IRRG Irrigation
+
+JNTS Joints
+JOIS Joists
+
+LAND Land
+LEGN Legend, symbols keys
+LEVE Levee
+LGAS Laboratory gas systems
+LIQD Liquid
+LITE Lighting
+LNTL Lintels
+LOCN Limits of construction
+LTNG Lightning protection system
+
+MACH Machine shop
+MAJQ Major equipment
+MDGS Medical gas systems
+MILL Millwork
+MINQ Minor equipment
+MKUP Make-up air systems
+MNTG Mounting systems
+MPIP Miscellaneous piping systems
+
+NGAS Natural gas systems
+NODE Node
+NURS Nurse call system
+
+OBST Obstructions
+OIL~ Oil
+OTGR Outgrants
+OVRN Vehicle overrun
+
+PADS Pads
+PERC Perc testing
+PGNG Paging system
+PHON Telephone system
+PIPE Piping
+PLAN Key Plan (Floor Plan)
+PLAT Platform
+PLNT Plant and landscape material
+POND Ponds
+POWR Power
+PRKG Parking lots
+PROC Process systems
+PROF Profile
+PROJ Projector system
+PROP Property
+PROT Fire protection system
+PRTN Partitions
+PVMD Photovoltaic Modules
+PVMT Pavement
+
+RAIL Railroad
+RAIR Relief air systems
+RCOV Energy recovery systems
+REFG Refrigeration systems
+RIGG Rigging / automation systems
+RIVR River
+ROAD Roadways
+ROOF Roof
+RRAP Riprap
+RUNW Runway
+RWAY Right-of-way
+
+SECT Section
+SERT Security system
+SGHT Sight distance
+SIGN Sign
+SITE Site features
+SLAB Slab
+SLUR Slurry
+SMOK Smoke extraction systems
+SOIL Soils
+SOUN Sound system
+SPCL Special systems
+SPFX Entertainment special effects system
+SPKL Sprinkler
+SRFS Surface sensor system
+SSWR Sanitary sewer
+STEM Steam system
+STIF Stiffener
+STRM Storm sewer
+STRS Stairs
+SURV Survey
+SWLK Sidewalks
+
+TAXI Airport taxiway or taxilane
+TEST Test equipment
+TILE Tile
+TINN Triangulated irregular network
+TOPO Topographic feature
+TRAF Traffic
+TRAL Trails or paths
+TRAN Transmission system
+TRUS Trusses
+TVVS Television and video system
+
+UNID Unidentified site objects
+UTIL Utilities
+
+VACU Vacuum
+VIDO Entertainment projection systems
+
+WALL Walls
+WATR Water supply
+WETL Wetlands
+WIND Wind powered
+WWAY Waterway

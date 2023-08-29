@@ -1,0 +1,8 @@
+A Abandoned
+D Existing to demolish
+E Existing to remain
+F Future work
+M Items to be moved
+N New work
+T Temporary work
+X Not in contract

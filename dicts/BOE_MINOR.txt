@@ -1,0 +1,785 @@
+025Y 25-year mark
+04FT Four feet high
+050Y 50-year mark
+06FT Six feet high
+100Y 100-year mark
+1XWD Extra wide lines 0.70 mm (0.028")
+200Y 200-year mark
+2XWD XX wide lines 1.00 mm (0.039")
+3XWD XXX wide lines 1.40 mm (0.055")
+4XWD XXXX wide lines 2.00 mm (0.079")
+
+:A
+AA~~ Agitation air - system
+ABLT Anchor bolts
+ABOV Above
+ABUT Abutment
+ACCS Access
+ACFU Fused ac
+ACPK Aircraft parking
+ACTL Aerial horizontal and 
+vertical control points
+ACNF Unfused ac
+AGGR Exposed aggregate
+AIR~ Air
+ALOC Allocation
+ALRM Alarm
+ALUM Aluminum
+AMEX Ammonia exhaust -
+system
+AMW~ Ammonia waste -
+system
+ANNN 
+Optional number (A = 
+letter, NNN = number 
+between 001 and 999)
+ANNO Annotation
+ANOD Sacrificial anode
+ANTN Antenna
+AR~~ Argon - system
+ARB~ Argon bulk - system
+ARC~ 
+Regenerative caustic -
+system
+AREX Arsenic exhaust -
+system
+ASPH Asphalt
+
+:B
+BA~~ Breathable air - system
+BACK Back
+BAFL 
+Baffle block and splash 
+pad
+BARR Barrier
+BASE Basecourse
+BASN 
+Stilling and settling basin
+BBAC Battery Backup
+BEDS 
+Perennial and annual beds
+BENT Top of bent
+BFW~ Boiler feed water -
+system
+BKRS Breakers
+BLBD Boiler blow down 
+piping
+BLDG Building points
+BLIN Baseline
+BMRK Benchmarks
+BNDY Boundary
+BORO Borough
+BOT1 Bottom group 1
+BOT2 Bottom group 2
+BOTB Bottom of bank
+BOTM Bottom
+BOXD Mixing box, dual duct
+BOXS Mixing box, single duct
+BRCK Brick
+BRDG Bridge
+BRGX Bridging
+BRKL Break lines
+BRNG Bearings and distance 
+labels 
+BROW Brush row points 
+BRSH Brush points 
+BUOY Buoy 
+BUSH Bushes and shrubs 
+BUSS Bus duct 
+BUSW Busways
+BUT~ Butane - system
+BWTR Breakwater
+
+:C
+C~~~ Caustic - system
+CA~~ Compressed air -
+system
+CABL Cable
+CAIR Compressed air
+CARS Cars and other vehicles
+CATV Cable television
+CAVI Cavity
+CBOX Combiner box
+CD~~ Condensate drain -
+system
+CDA~ Clean dry air - system
+CDFF Ceiling diffusers
+CHIM Chimney
+CIPR Culvert inlet protection
+CIRC Circuits
+CITY City
+CLAS Classifications
+CLDA Cold air
+CLG~ Chlorine gas - system
+CLHD Ceiling heads
+CLNG Ceiling
+CLV~ Chlorine vacuum -
+system
+CLW~ Concentrated lead 
+waste - system
+CMTL Corrugated metal
+CMUW Concrete masonry unit
+CMW~ Concentrated metals 
+waste - system
+CNDS Condensate piping
+CNDT
+Diversionary / bypass conduit / culvert
+CNMB Circuit numbers
+CNTE Construction entrance
+CNTJ Construction joint
+CNTR Center
+CNTY County
+COAX Coax cable
+COFF Coffer dam
+CONC Concrete
+CONI Coniferous trees
+CONS Conservation
+CORP Corporation
+COVR Coverage
+CPIP Cold water piping
+CRIT Critical
+CRKT Crickets
+CSTG Construction / Grading
+CSWK Casework
+CTLA Controlled access
+CTLJ Control joint
+CTNR Container or planter
+CUPW Copper plating waste -
+system
+CURB Curb
+CURR Impress current
+CURT Curtain
+CURV Curve
+CURW Copper rinse waste -
+system
+CUSW Copper slurry waste -
+system
+CV~~ Chemical vacuum -
+system
+
+:D
+DACL De-Authorized channel 
+limits, anchorages, etc.
+DAM~ Dam
+DASP Description attributes 
+for survey points
+DATA Data
+DCFU Fused dc
+DCNF Unfused dc
+DDIV Drainage divides
+DECK Deck
+DEIC Deicing
+DEPR Depression
+DEV~ Developer - system
+DEVC Devices
+DFEE Disposed fee
+DIAG Diagrams
+DIMS Dimensions
+DIR~ De-Ionized water return 
+- system
+DIRC DI reclaim - system
+DIS~ De-Ionized water 
+supply - system
+DISC Discharge
+DIWP DI polishing loop -
+system
+DLPH Dolphin
+DLW~ Dilute waste - system
+DMPR 
+Fire, smoke, volume 
+damper
+DOCK Decks, docks, floats, 
+piers
+DOOR Equipment doors
+DRAN 
+Drainage slope 
+indications
+DRIP Drip irrigation tubing
+DRIV Driveway points
+DRNS Drains
+DSCO Disconnect switches
+DSRF Design surfaces
+DTCH Ditches or washes
+DUCT Ductwork
+DVDK Diversion dike
+DVDR Thin dividers
+
+:E
+EASP Elevation attributes for 
+survey points
+EDGE Edge
+EDGR Planting bed edger
+EFAN Equipment with electric 
+fans
+EG~~ Ethylene glycol - system
+EGW~ Ethylene glycol waste -
+system
+ELEC Electrical
+ELEV Elevation
+EMER Emergency
+ENCL Equipment enclosures
+ENGR Engineering 
+Information
+EPDU Equipment with piping, 
+ductwork and electricity
+EPIP Equipment with piping 
+and electricity
+EQPM Equipment
+EQUI Equipotential
+ERTH Earth
+ESMT Easement
+EV~~ Equipment vacuum -
+system
+EVGR Evergreen trees -
+broadleaf
+EVTR Elevator cars and equipment
+EWAT Edge of water
+EXHS Exhaust air
+EXIT Exit
+EXPJ Expansion joint
+EXTI Extinguishers
+EXTR Exterior
+
+:F
+FACE Face
+FALT Fault / break lines
+FDPL Flood plain
+FDTA Field data
+FEE~ Fee
+FEED Feeders
+FENC Fences
+FEND Fender
+FIBR Fiber optics cable
+FILE File cabinets
+FILL Fill and cover material
+FINE Fine lines 0.18 mm (0.007")
+FIRE Fire protection
+FISH Fish ladder / passage
+FIXD Fixed
+FIXT Fixtures
+FLDR Floor drains
+FLLW Flow
+FLNE Fire lane
+FLOR Floor
+FLOW Flowline
+FLPL Flagpole
+FLUM Flume
+FLYS Fly station
+FNSH Finishes
+FORC Force main
+FREE Freestanding
+FRMG Framing
+FTNG Footings
+FTPT Area footprints
+FULL Full-height
+FURN Furnishings
+FW~~ Fire water - system
+
+:G
+GAGE Gauge
+GCVR Ground cover
+GENF General features
+GENR Generators
+GGEP Gas general piping
+GLAZ Glazing
+GNDW Ground water
+GPRP Gas process piping
+GRAL Guard rail
+GRBM Grade beams
+GRID Grid
+GRIL Grilles
+GRND Ground
+GRTG Grating
+GRVL Gravel
+
+:H
+H2~~ Hydrogen - system
+H2O2 Hydrogen peroxide -
+system
+HCDA High pressure clean dry 
+air - system
+HCL~ Hydrochloric acid -
+system
+HDIR Hot DI return - system
+HDIS Hot DI supply - system
+HDRC Hot DI reclaim - system
+HE~~ Helium - system
+HEAD Door and window headers
+HF~~ Hydrofluoric acid -
+system
+HFW~ Hydrofluoric waste -
+system
+HIDD 
+Objects or lines hidden 
+from view
+HOLE Holes
+HORZ Horizontal
+HOSE Hoses
+HOTA Hot air
+HPDR High pH DI return -
+system
+HPDS High pH DI supply -
+system
+HPIP Hot water / high-pressure piping
+HPN2 High purity nitrogen -
+system
+HPO2 High purity oxygen -
+system
+HRAL Handrails / guard rails
+HRDW Hardware
+HSSS Hollow structural steel
+HTCH Hatch
+HTEX Heat exhaust - system
+HV~~ House vacuum - system
+HVA~ 
+Arsenic house vacuum -
+system
+HVAC HVAC systems
+HVPT Horizontal / vertical
+HWAL Headwall
+HYDT Hydrants and 
+connections
+
+:I
+IA~~ Instrument air - system
+ICW~ Industrial city water -
+system
+IDEN Identification tags
+INEG Ingress / egress
+INPR Inlet protection
+INST Instrumentation
+INTK Intake
+INTR Interior 
+IPA~ Isopropyl alcohol -
+system
+IW~~ Industrial waste -
+system
+
+:J
+JACK Jacks
+JAMB 
+Door and window jambs
+JETB Airport jetbridge
+JBOX Junction box
+JNTC Control joint
+JNTE Expansion joint
+
+:K
+KEYN Keynotes
+
+:L
+LABL Labels
+LADD Ladders and ladder 
+assemblies
+LATL Lateral line
+LCHE Leak check helium -
+system
+LDTA Laboratory data
+LEAS Lease
+LEGN Legend, symbol keys
+LEVL Level changes
+LFEE Disposed less than fee
+LICN License
+LIMI Limit of earthwork
+LINE Lines
+LINK Chain link
+LMTA Limited access
+LO~~ Lube oil - system
+LOGO Company logo
+LONG Longitudinal
+LOWR Lower
+LPG~ Liquid petroleum gas -
+system
+LPIP Low-pressure piping
+LQPG Liquid petroleum gas
+LSCP Landscape
+LTRL Lateral pipe
+
+:M
+MAIN Mainline
+MAJR Major 
+MARK Markers, break marks, 
+leaders
+MATC Match lines
+MBND Material beyond cut
+MCUT Material cut by the 
+view
+MEDM Medium lines 0.35 mm (0.014")
+MESH Mesh or wire
+METL Metal
+METR Metering devices
+MHOL Manhole
+MINR Minor 
+MISC Miscellaneous
+MKUP Make-up water
+MLCH Mulches – organic and 
+inorganic
+MNTG Mounting system
+MOOR Mooring
+MOVE Movable
+MPIP Medium-pressure 
+piping
+MRKG Pavement markings
+MRKR 
+Landmarks or other markers for orientation
+MSNW Masonry
+MULT Multi-conductor cable
+MVNG Moving / Suspended
+MW~~ Metals waste - system
+
+:N
+N2~~ Nitrogen - system
+N2O~ Nitrous oxide - system
+NAID Navigation aids
+NATL National
+NFEE Non-fee
+NG~~ Natural gas - system
+NGAS Natural gas line
+NITG Nitrogen
+NOTE Notes
+NOVR Non-overflow structure
+NOXG Nitrous oxide
+NPLT Non-plotting graphic 
+information
+NPW~ Non-potable water -
+system
+NPWR Non-potable water 
+reuse - system
+NSBR Noise barrier
+
+:O
+O2~~ Oxygen - system
+OA~~ Outside air - system
+OBJT Objects
+OBSC Obstruction 
+identification surface
+OCCP Occupant or employee 
+names
+ODFF Other diffusers
+OFA~ Oil-free air - system
+OFST Offset zones
+OFZ~ Obstacle free zone
+OGEP Oil general piping
+OIW~ Organic industrial 
+waste - system
+OLW~ Organic liquid waste -
+system
+OPNG Openings
+OPNX Opening indication
+OPRP Oil process piping
+OSW~ Organic solvent waste -
+system
+OTHD Other heads
+OTLN Outline
+OVHD Overhead
+OXYG Pure O2
+
+:P
+PA~~ Plant air - system
+PADM Pad-mounted
+PADS Pads
+PALM Palm trees
+PANL Panels
+PASP Point number 
+attributes for survey points
+PATT 
+Texture or hatch patterns
+PAVR Unit pavers
+PCAP Pile caps
+PCST Pre-cast concrete
+PCWR 
+Cooling water return -
+system
+PCWS 
+Cooling water supply -
+system
+PENE Penetrations
+PENS Penstock
+PEQP Process equipment
+PERI Perimeter
+PERM Permanent
+PHON Telephone line
+PHOS Phosphoric acid -
+system
+PHRC Phosphoric acid reclaim 
+- system
+PIER Drilled piers
+PILE Piles
+PIPE Piping
+PLAY Play structures
+PLNT Plants
+PLYW Plywood
+PMIT Permit
+PNHS Penthouse
+PNLS System panels
+PNPT Panel points
+POCC Point of common 
+coupling
+POFA Precision object free 
+area
+POFZ Precision obstacle free 
+zone
+POI~ Point of 
+interconnection
+POLE Poles
+POLM Pole-mounted
+POND Retention pond
+POOL Pools and spas
+POST Posts
+PPIP Process piping
+PRCH Porch
+PRCL Parcels
+PRHT Partial-height
+PRIM Primary
+PRKG Parking
+PRO~ Propane - system
+PROF Profile
+PROS Date/time/file name 
+stamp
+PROV Province
+PRPT Parapet
+PRVC Privacy
+PSW~ Photo solvent waste -
+system
+PUMP Pumps
+PV~~ Vacuum - system
+PVMT Pavement
+PW~~ Potable water - system
+
+:Q
+QTRS Quarter section
+
+:R
+RAIS Raised
+RAMP Accessible ramp
+RATE Ratings
+RBAR Reinforcing bar
+RCON Reinforced concrete
+RDFF Return air diffusers
+RDGE Roof ridges
+RDME Read-me layer (not 
+plotted)
+REDL Redlines
+REFR Reference, external 
+files
+RER~ Solvent - system
+RETN Return
+REVC Revision clouds
+REVS 
+Revision indicators and 
+text
+RFDR Roof drains
+RFEQ Rooftop equipment
+RISR Risers
+RO~~ Reverse osmosis water 
+- system
+ROAD Roadway
+ROCK 
+Large rocks and rock 
+outcroppings
+ROFA
+Airport runway object 
+free area
+ROOF Roof
+ROR~ Reverse osmosis reject 
+water - system
+RPIP Recirculation piping
+RPZ~
+Airport runway 
+protection zone
+RRAP Riprap
+RSA~
+Airport runway safety 
+area
+RSCH 
+Sketch line round or 
+oval duct
+RSRV Reservation
+RTWL Retaining wall
+RWAY Right-of-way
+
+:S
+SAFT Safety areas
+SAIR Scavenge air
+SATD Satellite dishes
+SAUD Audio signal
+SBCK Setback lines
+SBST Substations
+SCEX Scrubber exhaust -system
+SCHD Schedules
+SCOM Communications signal
+SCTL Control signal
+SDAT Data signal
+SDD~ Scrubber duct drains -system
+SDFF Supply diffusers
+SDGA Digital audio signal
+SDGV Digital video signal
+SEAT Seating
+SECD Secondary
+SECT Section
+SEED Seeding areas
+SG~~ Specialty gas - system
+SGHT Sight distance
+SHAD Shadow area
+SHEA Structural bearing or shear walls
+SHLD Shoulder
+SHLF Wall-mounted shelving
+SIGN Signage
+SILL Window sills
+SILT Silt fence
+SIZE Ductwork size
+SKCH Sketch
+SKLT Skylight
+SLR~ Slurry return - system
+SLS~ Slurry supply - system
+SLVE Pipe sleeve
+SLW~ Slurry waste - system
+SMIC Microphone signal
+SMOK Smoke detector / heat sensors
+SOUN Soundings
+SPCL Special / specialties
+SPKL Sprinklers
+SPLY Supply
+SPOT Spot elevations
+SPRT Sports fields
+SPWR Power signal
+SRFI RF signal
+SRGB RGB and component video signal
+SSCH Sketch line rectangular 
+duct
+SSLT Super silt fence
+SSWR Sanitary sewer
+SSYN Sync signal
+STAN Stationing
+STAT State
+STBY Standby
+STEL Steel
+STEP Steps
+STMP Professional stamp
+STOR Storage
+STRC Structures
+STRM Storm Sewer
+STRP Striping
+STRS Stair treads
+SUBA 
+Cabinet sub-assemblies, 
+drawer boxes
+SUBD Subdivision (interior) 
+lines
+SUBS Sub-surface areas
+SULF Sulfuric acid - system
+SULR Sulfuric acid reclaim -system
+SUPT Support
+SURF Surface areas
+SUSP Suspended elements
+SVEX Solvent exhaust -system
+SVID Video signal
+SW~~ Solvent waste - system
+SWAY Spillway
+SWBD Switchboards
+SWCH Switches
+SWF~ Solvent waste 
+flammable - system
+SWLK Sidewalks 
+SWMT Storm water 
+management
+SWNF Solvent waste non-flammable - system
+SXTS Sixteenth section
+SYMB Reference symbols
+
+:T
+TABL Data tables
+TAKE Taking lines
+TANK Storage tanks
+TDIR Tempered DI return -
+system
+TDIS Tempered DI supply -
+system
+TEES Main tees
+TEMP Temporary
+TEST Test stations
+TEXT Text
+THER Thermostats
+THIN Thin lines 0.25 mm (0.010")
+TICK Tick marks
+TITL Drawing or detail titles
+TMAH TMAH - system
+TOP~ Top
+TOP1 Top group 1
+TOP2 Top group 2
+TOPB Top of bank
+TOWR Towers
+TPIT Test pits
+TPTN Toilet partitions
+TRAC Tract lines
+TRAK Track
+TRAL Trail or path
+TRAV Transverse
+TRAY Cabletray and wireways
+TREE Trees
+TROW Tree row
+TSHP Town or township
+TTLB Border and titleblock
+TURF Lawn areas
+TW~~ Tempered water -
+system
+
+:U
+UCPT Under-carpet wiring
+UCTR Under counter
+UN2~ Utility nitrogen - system
+UGND Underground
+UPPR Upper 
+UPRW Ultra-pure recycle 
+water - system
+UPS~ Uninterruptible power 
+supply
+UPVD Unpaved surface
+UPW~ Ultra-pure water -
+system
+URAC Under-floor raceways
+UTIL Utility lines
+
+:V
+V~~~ Vent - system
+VACU Vacuum
+VALT Vault & pits
+VALV Valves
+VEGE 
+Trees, shrubs, and 
+other vegetation
+VENR Veneer
+VENT Vents
+VERT Vertical
+VIEW Triangulation view
+VINE Vines
+VN2~ Venturi nitrogen -
+system
+VOID Void regions
+
+:W
+W2XS Dimension lumber
+WALL Wall
+WAR~ Weld argon - system
+WATR Water supply
+WDWK 
+Architectural woodwork
+WEIR Pool weir
+WELL Well
+WIDE Wide lines 0.50 mm (0.020")
+WHIT White paint
+WIRE Wiring
+WKSF Worksurface
+WOOD Wood
+
+:X
+XFIN Extra fine lines 0.14 mm (0.005")
+XFMR Transformers
+XTRU Extrusion
+
+:Y
+YELO Yellow paint
+
+:Z
+ZONE Zoning
+

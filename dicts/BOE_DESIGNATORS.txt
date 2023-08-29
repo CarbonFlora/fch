@@ -1,0 +1,217 @@
+A Architectural
+AD Architectural Demolition
+AE Architectural Elements
+AF Architectural Finishes
+AG Architectural General
+AI Architectural Interiors
+AJ User Defined
+AK User Defined
+AR Architectural Graphics
+AS Architectural Site
+
+B Geotechnical
+BJ User Defined
+BK User Defined
+
+C Civil
+CB Civil Grading
+CD Civil Demolition
+CG Civil General
+CI Civil Improvements
+CJ User Defined
+CK User Defined
+CN Civil Nodes
+CP Civil Paving
+CS Civil Site
+CT Civil Transportation
+CU Civil Utilities
+
+D Process
+DA Process Airs
+DC Process Chemicals
+DD Process Demolition
+DE Process Electrical
+DF Process Flow
+DG Process General
+DI Process Instrumentation
+DJ User Defined
+DK User Defined
+DL Process Liquids
+DM Process HPM Gases
+DO Process Oils
+DP Process Piping
+DQ Process Equipment
+DR Process Drains and Reclaims
+DS Process Site
+DV Process Vacuum
+DW Process Waters
+DX Process Exhaust
+DY Process Slurry
+
+E Electrical
+EC Electrical Communications
+ED Electrical Demolition
+EG Electrical General
+EI Electrical Instrumentation
+EJ User Defined
+EK User Defined
+EL Electrical Lighting
+EP Electrical Power
+ES Electrical Site
+ET Electrical Telecommunications
+EY Electrical Auxiliary Systems
+EX Electrical By Others
+
+F Fire Protection
+FA Fire Protection Alarms & Detection
+FD Fire Protection Demolition
+FG Fire Protection General
+FJ User Defined
+FK User Defined
+FS Fire Protection Site
+FX Fire Suppression
+
+G General 
+GC General Contract
+GI General Information
+GJ User Defined
+GK User Defined
+GR General Resource
+
+H Hazardous Materials
+HA Hazardous Materials Asbestos
+HC Hazardous Materials Chemicals
+HJ User Defined
+HK User Defined
+HL Hazardous Materials Lead
+HP Hazardous Materials PCB
+HR Hazardous Materials Refrigerants
+
+I Instrumentation
+ID Instrumentation Demolition
+IP Instrumentation Process
+IS Instrumentation Single Line
+IX Instrumentation By Others
+IF Interior Furnishings
+IG Interior Graphics
+IJ User Defined
+IK User Defined
+IN Interior Design
+
+L Landscape
+LB Landscape Grading
+LD Landscape Demolition
+LG Landscape General
+LI Landscape Irrigation
+LJ User Defined
+LK User Defined
+LL Landscape Lighting
+LP Landscape Planting
+LR Landscape Relocation
+LS Landscape Site
+
+M Mechanical
+MD Mechanical Demolition
+MG Mechanical General
+MH Mechanical HVAC
+MI Mechanical Instrumentation
+MJ User Defined
+MK User Defined
+MP Mechanical Piping
+MS Mechanical Site
+MX Mechanical By Others
+MS Mechanical Site
+
+O Operations
+OJ User Defined
+OK User Defined
+
+P Plumbing
+PD Plumbing Demolition
+PJ User Defined
+PK User Defined
+PL Plumbing Fixtures
+PP Plumbing Piping
+PQ Plumbing Equipment
+PS Plumbing Site
+
+Q Equipment
+QA Equipment Athletic
+QB Equipment Bank
+QC Equipment Dry Cleaning
+QD Equipment Detention
+QE Equipment Educational
+QF Equipment Food service
+QH Equipment Hospital
+QJ User Defined
+QK User Defined
+QL Equipment Laboratory
+QM Equipment Maintenance
+QP Equipment Parking Lot
+QR Equipment Retail
+QS Equipment Site
+QT Equipment Theatrical
+QV Equipment Video / Photographic
+QY Equipment Security
+
+R Resource
+RA Resource Architectural
+RC Resource Civil
+RE Resource Electrical
+RJ User Defined
+RK User Defined
+RM Resource Mechanical
+RR Resource Real Estate
+RS Resource Structural
+
+S Structural
+SB Structural Substructure
+SD Structural Demolition
+SF Structural Framing
+SG Structural General
+SJ User Defined
+SK User Defined
+SS Structural Site
+
+T Telecommunications
+TA Telecommunications Audio Visual
+TC Telecommunications Clock and Program
+TI Telecommunications Intercom
+TJ User Defined
+TK User Defined
+TM Telecommunications Monitoring
+TN Telecommunications Data Networks
+TT Telecommunications Telephone
+TY Telecommunications Security
+
+V Survey / Mapping
+VA Survey / Mapping Aerial
+VB Survey / Mapping Boundary
+VC Survey / Mapping Computated Points
+VF Survey Field
+VI Survey / Mapping Digital
+VN Survey / Mapping Node Points
+VS Survey / Mapping Staked Points
+VJ User Defined
+VK User Defined
+VL Survey / Mapping Land
+VU Survey / Mapping Combined Utilities
+
+W Distributed Energy
+WC Distributed Energy Civil
+WD Distributed Energy Demolition
+WI Distributed Energy Interconnection
+WJ User Defined
+WK User Defined
+WP Distributed Energy Power
+WS Distributed Energy Structural
+WT Distributed Energy Telecommunications
+WY Distributed Energy Auxiliary Systems
+
+X Other Disciplines
+XJ User Defined
+XK User Defined
+
+Z Contractor/Shop Drawings
+ZJ User Defined
+ZK User Defined
