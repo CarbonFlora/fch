@@ -69,13 +69,16 @@ impl Dictionary {
             Mode::FindAbbreviation => &self.to_abbreviation,
             Mode::FindLongForm => &self.to_longform,
         };
-
+        let mut count = 0;
         if let Some(w) = self.perfect_search(list) {
             println!("\n[Exact Match]{}", w);
+            count += 1;
         }
         if let Some(w) = self.fuzzy_search(list) {
             println!("\n[Fuzzy Matches]{}", w);
-        } else {
+            count += 1;
+        }
+        if count > 0 {
             println!("No relevant definitions.");
         }
     }

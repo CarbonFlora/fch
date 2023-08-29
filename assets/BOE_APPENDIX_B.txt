@@ -1,0 +1,19 @@
+C-ANNO-BRNG Bearings, distance labels, and survey coordinates
+C-ANNO-DIMS Dimensions 
+C-ANNO-IDEN Identification tags 
+C-ANNO-LABL Labels 
+C-ANNO-LEGN Legends, symbol keys 
+C-ANNO-LOGO Company logo 
+C-ANNO-MARK Markers, break marks, leaders 
+C-ANNO-MATC Match lines 
+C-ANNO-NOTE Notes 
+C-ANNO-REDL Redlines 
+C-ANNO-REFR External References (Xref’s)
+C-ANNO-REVC Revision clouds and notes 
+C-ANNO-SCHD Schedules 
+C-ANNO-STMP Professional stamps 
+C-ANNO-SYMB Reference symbols 
+C-ANNO-TABL Data tables 
+C-ANNO-TEXT Text 
+C-ANNO-TITL Drawing or detail titles 
+C-ANNO-TTLB Border and title block

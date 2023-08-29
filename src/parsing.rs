@@ -1,12 +1,10 @@
 use anyhow::Result;
-use ron::from_str;
-use ron::ser::{to_string_pretty, PrettyConfig};
 use std::fs::File;
-use std::io::{BufRead, BufReader, Write};
+use std::io::{BufRead, BufReader};
 
 use crate::dictionary::KeyPair;
 
-const DIR: &str = ".\\CAD_LAYER_DICTIONARY.ron";
+// const DIR: &str = ".\\CAD_LAYER_DICTIONARY.ron";
 
 pub fn new_longform(file_path: &str) -> Result<KeyPair> {
     let mut map = KeyPair::new();
@@ -34,18 +32,18 @@ pub fn new_longform(file_path: &str) -> Result<KeyPair> {
         }
     }
 
-    write_ron(&map)?;
+    // write_ron(&map)?;
     Ok(map)
 }
 
-pub fn build_longform() -> Result<KeyPair> {
-    // let mut directory = dirs::home_dir().unwrap_or_default();
-    // directory.push(fs::canonicalize(DIR)?);
-    let decode = std::fs::read_to_string(DIR)?;
-    let map: KeyPair = from_str(&decode)?;
+// pub fn build_longform() -> Result<KeyPair> {
+//     // let mut directory = dirs::home_dir().unwrap_or_default();
+//     // directory.push(fs::canonicalize(DIR)?);
+//     let decode = std::fs::read_to_string(DIR)?;
+//     let map: KeyPair = from_str(&decode)?;
 
-    Ok(map)
-}
+//     Ok(map)
+// }
 
 pub fn key_swap(keypair: KeyPair) -> KeyPair {
     let mut rev_keypair = KeyPair::new();
@@ -56,18 +54,18 @@ pub fn key_swap(keypair: KeyPair) -> KeyPair {
     rev_keypair
 }
 
-pub fn write_ron(keypair: &KeyPair) -> Result<()> {
-    let pretty = PrettyConfig::new()
-        .depth_limit(2)
-        .separate_tuple_members(true)
-        .enumerate_arrays(true);
-    let s = to_string_pretty(&keypair, pretty)?;
-    // let mut directory = dirs::home_dir().unwrap_or_default();
-    // directory.push(DIR);
-    // let mut file_path = directory.clone();
-    // file_path.push("CAD_LAYER_DICTIONARY.ron");
+// pub fn write_ron(keypair: &KeyPair) -> Result<()> {
+//     let pretty = PrettyConfig::new()
+//         .depth_limit(2)
+//         .separate_tuple_members(true)
+//         .enumerate_arrays(true);
+//     let s = to_string_pretty(&keypair, pretty)?;
+//     // let mut directory = dirs::home_dir().unwrap_or_default();
+//     // directory.push(DIR);
+//     // let mut file_path = directory.clone();
+//     // file_path.push("CAD_LAYER_DICTIONARY.ron");
 
-    // fs::create_dir_all(directory)?;
-    write!(File::create(DIR)?, "{}", s)?;
-    Ok(())
-}
+//     // fs::create_dir_all(directory)?;
+//     write!(File::create(DIR)?, "{}", s)?;
+//     Ok(())
+// }
