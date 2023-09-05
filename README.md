@@ -24,3 +24,6 @@ C□-AFLD-CNTR Airfields: center
 ### Switching with ":s"
 "Ex. CG => Civil Grading"  
 "Ex. Civil Grading => CG"  
+
+How to Use:
+In the command line, run the executable file with a a series of dictionary files. This repository contains example dictionaries in the 'dicts' folder. These example dicts contain the entries for translating between Los Angeles Bureau of Engineering standard layer names. Type ':q' to quit the program gracefully. Type ':s' to switch search method.
